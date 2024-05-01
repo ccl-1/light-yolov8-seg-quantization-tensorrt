@@ -1,13 +1,35 @@
-#### light-yolov8-seg-quantization-tensorrt
-This Repo is for light-weight rail instance segmentation based on Yolov8n-seg.
+## Lightweight Railway Track Segmentation
 
-#### Reference
+This repository is designed for lightweight railway track segmentation, enabling real-time performance on resource-constrained edge devices (e.g., Jetson Nano).
 
-https://github.com/ultralytics/ultralytics
-https://github.com/CYYAI/AiInfer
+The inference acceleration part is located in the `main` branch, while the lightweight model designs are in the `light_version` branch.
 
+Our algorithm is primarily based on these following reference, with optimizations and modifications made on top of them. Installation, configuration, etc., are the same as them.
 
+### Reference Links:
+- https://github.com/ultralytics/ultralytics
+- https://github.com/CYYAI/AiInfer
 
+#### Note:
+When utilizing our algorithm for acceleration, it's essential to generate the TRT (TensorRT) file using your own computer. This file requires some local device information, and generating it on other devices may lead to incompatibility.
 
+### Model Inference Results:
 
+Here are the inference results of several models, along with corresponding images:
 
+![Inference Result 1](image1.jpg)
+*Model: Model 1*
+*Accuracy: XX%*
+*Inference Time: XX ms*
+
+![Inference Result 2](image2.jpg)
+*Model: Model 2*
+*Accuracy: XX%*
+*Inference Time: XX ms*
+
+![Inference Result 3](image3.jpg)
+*Model: Model 3*
+*Accuracy: XX%*
+*Inference Time: XX ms*
+
+Feel free to explore the repository and utilize the models for your railway track segmentation tasks.
