@@ -1,7 +1,6 @@
 ## Lightweight Railway Track Segmentation
-<div align=center>
-<img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/result.gif" > 
-</div>
+
+![img](https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/result.gif) 
 
 
 This repository is designed for lightweight railway track segmentation, enabling real-time performance on resource-constrained edge devices (e.g., Jetson Nano).
