@@ -1,0 +1,10 @@
+from ultralytics.engine.model import YOLO
+
+
+# Load a model
+model = YOLO('yolov8n.pt')  # load an official model
+#model = YOLO('path/to/best.pt')  # load a custom model
+
+# Predict with the model
+results = model('assets/bus.jpg')  # predict on an image
+
