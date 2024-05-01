@@ -21,7 +21,7 @@ When utilizing our algorithm for acceleration, it's essential to generate the TR
 
 Here are the inference results of several models, along with corresponding images:
 
-<img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/compare.png" width="500px"><img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/val_batch1_pred.jpg" width="400px">
+<img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/compare.png" width="420px"><img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/val_batch1_pred.jpg" width="400px">
 
 
 Feel free to explore the repository and utilize the models for your railway track segmentation tasks.
