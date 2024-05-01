@@ -1,4 +1,8 @@
 ## Lightweight Railway Track Segmentation
+<div align=center>
+<img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/result.gif" > 
+</div>
+
 
 This repository is designed for lightweight railway track segmentation, enabling real-time performance on resource-constrained edge devices (e.g., Jetson Nano).
 
@@ -17,19 +21,7 @@ When utilizing our algorithm for acceleration, it's essential to generate the TR
 
 Here are the inference results of several models, along with corresponding images:
 
-![Inference Result 1](image1.jpg)
-*Model: Model 1*
-*Accuracy: XX%*
-*Inference Time: XX ms*
+<img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/compare.png" width="500px"><img src="https://github.com/ccl-1/light-yolov8-seg-quantization-tensorrt/blob/main/doc/val_batch1_pred.jpg" width="400px">
 
-![Inference Result 2](image2.jpg)
-*Model: Model 2*
-*Accuracy: XX%*
-*Inference Time: XX ms*
-
-![Inference Result 3](image3.jpg)
-*Model: Model 3*
-*Accuracy: XX%*
-*Inference Time: XX ms*
 
 Feel free to explore the repository and utilize the models for your railway track segmentation tasks.
